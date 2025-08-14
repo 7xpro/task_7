@@ -2,10 +2,10 @@
 
 This script demonstrates how to:
 
- 1. Explore table data
- 2. Create and use views in MySQL
- 3. Apply data abstraction and security principles
- 4. Perform joins within views for simplified queryin
+ 1. Explore table data<br>
+ 2. Create and use views in MySQL<br>
+ 3. Apply data abstraction and security principles<br>
+ 4. Perform joins within views for simplified queryin<br>
 
 <h2>Table Details</h2>
 
@@ -20,7 +20,7 @@ This script demonstrates how to:
 
 
 <h2>Purpose:</h2>
-  1.Combines firstname and lastname into a single column fullname.
+  1.Combines firstname and lastname into a single column fullname.<br>
   2.Calculates the total years of service for each employee.
 <h2>Benefit:</h2>
   1.Hides calculation logic from the end user, providing a clean interface.
@@ -38,12 +38,13 @@ This script demonstrates how to:
     inner join orders o on o.CUSTOMERID=c.customerid where o.status='01';
 
 <h2>Purpose:</h2>
-  1.Joins customers and orders to retrieve active orders (status '01').
+  1.Joins customers and orders to retrieve active orders (status '01').<br>
   2.Displays only necessary customer details and their order status.
 <h2>Benefit:</h2>
-  1.Simplifies complex join queries.
+  1.Simplifies complex join queries.<br>
   2.Restricts data to relevant rows (security).   
 
 ![use get_order_status](https://github.com/user-attachments/assets/8fbeb80a-552e-43f5-9679-5386d7850175)
+
 
 
